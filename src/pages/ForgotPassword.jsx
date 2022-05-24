@@ -10,7 +10,7 @@ const ForgotPassword = () => {
 
     const onChange = (e) => setEmail(e.target.value)
     
-    //reset password not being sent to email. needs to be fixed
+    //reset password sent to email
     const onSubmit = async (e) => {
         e.preventDefault()
         try {
